@@ -9,6 +9,11 @@
             InitializeComponent();
         }
 
+        private void ToggleSwitchMode(object sender, EventArgs e)
+        {
+            BackgroundColor = Color.FromArgb("#808080");
+        }
+
     }
 
 }

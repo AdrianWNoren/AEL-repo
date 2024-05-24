@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {}
+    "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {
+    "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
+        "projectUniqueName": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
         "projectName": "LEAMAUI",
-        "projectPath": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
-        "packagesPath": "C:\\Users\\linus.nyberg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\obj\\",
+        "projectPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
+        "packagesPath": "C:\\Users\\adrian.noren2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\linus.nyberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adrian.noren2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,13 +97,13 @@
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {
@@ -236,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -272,13 +272,13 @@
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             }
           },
@@ -296,11 +296,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref",
-              "version": "[16.4.7129, 16.4.7129]"
+              "version": "[16.4.7142, 16.4.7142]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-              "version": "[16.4.7129, 16.4.7129]"
+              "version": "[16.4.7142, 16.4.7142]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.ios",
@@ -344,7 +344,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -380,13 +380,13 @@
             "Microsoft.NET.ILLink.Analyzers": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.100-1.23211.1, )",
+              "version": "[7.0.100-1.23401.1, )",
               "autoReferenced": true
             }
           },
@@ -405,11 +405,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref",
-              "version": "[16.4.7129, 16.4.7129]"
+              "version": "[16.4.7142, 16.4.7142]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-              "version": "[16.4.7129, 16.4.7129]"
+              "version": "[16.4.7142, 16.4.7142]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
@@ -453,7 +453,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -511,7 +511,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.17, 7.0.17]"
+              "version": "[7.0.19, 7.0.19]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.win",
@@ -539,7 +539,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.17, 7.0.17]"
+              "version": "[7.0.19, 7.0.19]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -547,7 +547,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.17, 7.0.17]"
+              "version": "[7.0.19, 7.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -567,7 +567,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -3,20 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:lvc="clr-namespace:LiveChartsCore;assembly=LiveChartsCore"
              x:Class="LEAMAUI.MainPage">
-    
-    <ContentView BackgroundColor="#222222">
-        <StackLayout Padding="20" Spacing="20" Orientation="Horizontal" HorizontalOptions="Center" TranslationY="-210">
-            <Button Text="Profit" BackgroundColor="#333" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
-            <Button Text="Sales" BackgroundColor="#333" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
-            <Button Text="Win-Rate" BackgroundColor="#333" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
-        </StackLayout>
-
-        <AbsoluteLayout>
-            
-        </AbsoluteLayout>
-
-        
 
 
-    </ContentView>
+    <AbsoluteLayout Background="#222222" x:Name="colorBack">
+        <Switch  OnColor="Blue" ZIndex="10"  HorizontalOptions="CenterAndExpand" TranslationX="300" TranslationY="200"/>
+        <Label Text="Notifications:" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" ZIndex="10" TranslationX="200" TranslationY="210" />
+        <Switch  OnColor="Blue" ZIndex="10"  HorizontalOptions="CenterAndExpand" TranslationX="300" TranslationY="230"  />
+        <Label Text="Show Nudity:" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" ZIndex="10" TranslationX="200" TranslationY="240" />
+        <Switch Toggled="ToggleSwitchMode" IsToggled="false" TranslationX="300" TranslationY="170" OnColor="Blue" />
+        <Label Text="Dark/Light:" TranslationX="210" TranslationY="180" ZIndex="10" FontAttributes="Bold" />
+
+
+
+
+
+        <ContentView BackgroundColor="#222222">
+            <StackLayout Padding="20" Spacing="300" Orientation="Horizontal" HorizontalOptions="Center" TranslationY="0">
+                <Button Text="Profit" BackgroundColor="#77d065" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+                <Button Text="Sales" BackgroundColor="#2c3e50" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+                <Button Text="Win-Rate" BackgroundColor="#b455b6" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+            </StackLayout>
+        </ContentView>
+    </AbsoluteLayout>
 </ContentPage>
+
+
+
+
+
+

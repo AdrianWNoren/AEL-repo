@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A41FCE1-5D30-4D2D-906E-61872DEB68B3}|LEAMAUI\\LEAMAUI.csproj|c:\\users\\adrian.noren2\\desktop\\skola\\code\\c-sharp-projects\\ael-repo\\ael-repo\\leamaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9A41FCE1-5D30-4D2D-906E-61872DEB68B3}|LEAMAUI\\LEAMAUI.csproj|solutionrelative:leamaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,23 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "LEAMAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\AEL-repo\\AEL-repo\\LEAMAUI\\MainPage.xaml",
+              "RelativeToolTip": "LEAMAUI\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-24T08:45:58.91Z",
+              "EditorCaption": ""
             }
           ]
         }
