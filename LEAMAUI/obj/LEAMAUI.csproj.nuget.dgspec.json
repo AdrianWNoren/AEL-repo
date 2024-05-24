@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\LEAMAUI\\LEAMAUI.csproj": {}
+    "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\LEAMAUI\\LEAMAUI.csproj": {
+    "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\LEAMAUI\\LEAMAUI.csproj",
+        "projectUniqueName": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
         "projectName": "LEAMAUI",
-        "projectPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\LEAMAUI\\LEAMAUI.csproj",
-        "packagesPath": "C:\\Users\\adrian.noren2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adrian.noren2\\Desktop\\Skola\\Code\\c-sharp-projects\\LEAMAUI\\LEAMAUI\\obj\\",
+        "projectPath": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\LEAMAUI.csproj",
+        "packagesPath": "C:\\Users\\linus.nyberg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linus.nyberg\\Desktop\\Uppgifter\\AEL-repo\\LEAMAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adrian.noren2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linus.nyberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,6 +66,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "LiveChartsCore.SkiaSharpView.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -232,11 +236,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "LiveChartsCore.SkiaSharpView.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -336,11 +344,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "LiveChartsCore.SkiaSharpView.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -441,11 +453,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "LiveChartsCore.SkiaSharpView.Maui": {
+              "target": "Package",
+              "version": "[2.0.0-rc2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -495,7 +511,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.win",
@@ -523,7 +539,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -531,7 +547,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -551,7 +567,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

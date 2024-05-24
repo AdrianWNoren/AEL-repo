@@ -1,1 +1,1 @@
-C:\Users\adrian.noren2\Desktop\Skola\Code\c-sharp-projects\LEAMAUI\LEAMAUI\LEAMAUI.csproj;x64
+C:\Users\linus.nyberg\Desktop\Uppgifter\AEL-repo\LEAMAUI\LEAMAUI.csproj;x64
