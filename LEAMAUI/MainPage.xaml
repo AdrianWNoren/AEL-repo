@@ -1,41 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:micro="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
              x:Class="LEAMAUI.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <StackLayout Background="#222222">
+        
+        <micro:ChartView x:Name="chartView" WidthRequest="1500" HeightRequest="300" TranslationY="220" BackgroundColor="Transparent"/>
+        <Label Text="+113%" TextColor="#77d065" TranslationX="220" FontAttributes="Bold" FontSize="15" TranslationY="-100"/>
+        <Label Text="4362" TextColor="#2c3e50" TranslationX="625" FontAttributes="Bold" FontSize="15" TranslationY="-121" />
+        <Label Text="23%" TextColor="#b455b6" TranslationX="1020" FontAttributes="Bold" FontSize="15" TranslationY="-140" />
+        <Polygon BackgroundColor="white" TranslationY="130"/>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
-
+        <ContentView BackgroundColor="#222222" TranslationY="-300">
+            <StackLayout Padding="20" Spacing="300" Orientation="Horizontal" HorizontalOptions="Center" TranslationY="0">
+                
+                <Button Text="Profit" BackgroundColor="#77d065" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+                <Button Text="Sales" BackgroundColor="#2c3e50" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+                <Button Text="Win-Rate" BackgroundColor="#b455b6" HeightRequest="100" WidthRequest="100" FontAttributes="Bold" />
+            </StackLayout>
+        </ContentView>
+    </StackLayout>
 </ContentPage>

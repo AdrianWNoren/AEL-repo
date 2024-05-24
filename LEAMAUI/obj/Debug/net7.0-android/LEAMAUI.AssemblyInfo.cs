@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LEAMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7dbecbbc42eb7d92931f255c632575b76456bf73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fc4ce3942bb360d49ef7014c6e8e0b4e7070d040")]
 [assembly: System.Reflection.AssemblyProductAttribute("LEAMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LEAMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
